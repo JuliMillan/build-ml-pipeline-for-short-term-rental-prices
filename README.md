@@ -1,3 +1,9 @@
+# Relevant links
+Public links for my submission
+
+- [W&B project](https://wandb.ai/julimillan6-/nyc_airbnb/overview)
+- [GitHub repo](https://github.com/JuliMillan/build-ml-pipeline-for-short-term-rental-prices)
+
 # Build an ML Pipeline for Short-Term Rental Prices in NYC
 You are working for a property management company renting rooms and properties for short periods of 
 time on various rental platforms. You need to estimate the typical price for a given property based 
@@ -8,28 +14,35 @@ In this project you will build such a pipeline.
 
 ## Table of contents
 
-- [Introduction](#build-an-ML-Pipeline-for-Short-Term-Rental-Prices-in-NYC)
-- [Preliminary steps](#preliminary-steps)
-  * [Fork the Starter Kit](#fork-the-starter-kit)
-  * [Create environment](#create-environment)
-  * [Get API key for Weights and Biases](#get-api-key-for-weights-and-biases)
-  * [Cookie cutter](#cookie-cutter)
-  * [The configuration](#the-configuration)
-  * [Running the entire pipeline or just a selection of steps](#Running-the-entire-pipeline-or-just-a-selection-of-steps)
-  * [Pre-existing components](#pre-existing-components)
-- [Instructions](#instructions)
-  * [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
-  * [Data cleaning](#data-cleaning)
-  * [Data testing](#data-testing)
-  * [Data splitting](#data-splitting)
-  * [Train Random Forest](#train-random-forest)
-  * [Optimize hyperparameters](#optimize-hyperparameters)
-  * [Select the best model](#select-the-best-model)
-  * [Test](#test)
-  * [Visualize the pipeline](#visualize-the-pipeline)
-  * [Release the pipeline](#release-the-pipeline)
-  * [Train the model on a new data sample](#train-the-model-on-a-new-data-sample)
-- [Cleaning up](#cleaning-up)
+- [Relevant links](#relevant-links)
+- [Build an ML Pipeline for Short-Term Rental Prices in NYC](#build-an-ml-pipeline-for-short-term-rental-prices-in-nyc)
+  - [Table of contents](#table-of-contents)
+  - [Preliminary steps](#preliminary-steps)
+    - [Supported Operating Systems](#supported-operating-systems)
+    - [Python Requirement](#python-requirement)
+    - [Fork the Starter kit](#fork-the-starter-kit)
+    - [Create environment](#create-environment)
+    - [Get API key for Weights and Biases](#get-api-key-for-weights-and-biases)
+    - [Cookie cutter](#cookie-cutter)
+    - [The configuration](#the-configuration)
+    - [Running the entire pipeline or just a selection of steps](#running-the-entire-pipeline-or-just-a-selection-of-steps)
+    - [Pre-existing components](#pre-existing-components)
+  - [Instructions](#instructions)
+    - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+  - [Data cleaning](#data-cleaning)
+    - [Data testing](#data-testing)
+    - [Data splitting](#data-splitting)
+    - [Train Random Forest](#train-random-forest)
+    - [Optimize hyperparameters](#optimize-hyperparameters)
+    - [Select the best model](#select-the-best-model)
+    - [Test](#test)
+    - [Visualize the pipeline](#visualize-the-pipeline)
+    - [Release the pipeline](#release-the-pipeline)
+    - [Train the model on a new data sample](#train-the-model-on-a-new-data-sample)
+  - [In case of errors](#in-case-of-errors)
+    - [Environments](#environments)
+    - [MLflow \& Wandb](#mlflow--wandb)
+  - [License](#license)
 
 ## Preliminary steps
 
